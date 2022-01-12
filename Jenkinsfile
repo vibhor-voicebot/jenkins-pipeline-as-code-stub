@@ -48,7 +48,7 @@ pipeline {
 
         stage('Code Build') {
             steps {
-                 sh 'maven install -Dmaven.test.skip=true'
+                 sh 'maven3 install -Dmaven.test.skip=true'
             }
         }
 
